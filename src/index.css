@@ -1,0 +1,76 @@
+@media screen and (max-width: 1400px) {
+    @media (max-width: 768px) {
+        .section__deco {
+          height: 50%;
+        }
+      
+        .section__deco::before,
+        .section__deco::after {
+          width: 20px;
+          height: 20px;
+        }
+      }
+    
+      .header{
+        padding: 30px 12px;
+      }
+    
+      .home__img-wrapper{
+        max-width: 600px;
+        transform: translateY(-6%);
+      }
+    
+      .home__profile{
+        height: auto;
+    
+      }
+    
+      .home__dat{
+        transform: scale(0.9);
+      }
+    
+      .shape__1{
+        width: 203px;
+        height: 203px;
+      }
+    
+      .shape__2{
+        height: 126px;
+        width: 126px;
+      }
+}
+
+@media screen and (max-width: 800px){
+    .container{
+        max-width: 960px;
+    }
+    .home{
+        padding-top: 140px;
+    }
+
+    .home__subtitle,
+    .home__title,
+    .home__job,
+    .home__text
+    {
+        text-align: center;
+    }
+
+    .home__text{
+        margin-inline: auto;
+    }
+
+    .home__img-wrapper{
+        position: relative;
+        transform: initial;
+        right: initial;
+        margin-inline: auto;
+        margin-top: 140px;
+        height: 400px;
+        width: auto;
+    }
+    .home__social,
+    .home__btns{
+        justify-content: center;
+    }
+}
